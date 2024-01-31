@@ -1020,7 +1020,7 @@ public class InAppBrowser extends CordovaPlugin {
                             activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT);
                         }
                     }
-                };
+                });
 
                 inAppWebView.setWebChromeClient(inAppChromeClient);
                 currentClient = new InAppBrowserClient(thatWebView, edittext, beforeload);
